@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+    background-size: cover;
+    width: 80%;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    border-style: solid;
+    margin: auto;
+    
+}
+
+.cuerpo_completo{
+    width: 80%;
+    margin: auto;
+    border-style: solid;
+}
+
+header {
+    background: #008080;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 5px;
+    padding: 0%;
+}
+
+header img{
+    width: 80%;
+}
+
+.contenido{
+    background: #008080;
+    border-radius: 20px;
+    display: grid;
+    grid-column-gap: .1rem;
+    grid-row-gap: .2rem;
+    grid-template-columns: 1fr 3fr;
+    grid-auto-rows: 1fr;
+    min-height: 75vh;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding-right: 1rem;
+} 
+
+h2 {
+    text-align: center;
+    color: #f8d914;
+    font-size: 3vw;
+    font-weight: 600;
+}
+  
+aside ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+  
+aside ul li {
+    margin: 1rem;
+}
+  
+aside ul a {
+    border-radius: 15px;
+    background-color: #dadada;
+    color: #008080;
+    text-decoration: none;
+    padding: 4px;
+    margin: 2px;
+    font-size: 2.4vw;
+    font-weight: 600;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+  
+aside ul a:hover {
+    background-color: #2c3e50;
+    color: aliceblue;
+   
+}
+  
+img {
+    margin: auto;
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+  
+div p {
+    text-align: justify;
+    margin: 1em 0;
+    color: #ffff;
+    font-size: 2.4vw;
+}
+
+footer{
+    background: #008080;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-style: solid;
+    height: 6vh;
+    margin-top: 5px;
+    padding: 0%;
+}
+
+footer p{ 
+    text-align: center;
+    color: #b6b6b6;
+    font-size: 2vw;
+    margin: 8px;
+}
